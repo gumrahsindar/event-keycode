@@ -1,12 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 * {
   box-sizing: border-box;
 }
 
 body {
-  background-color: #e1e1e1;
-  font-family: 'Muli', sans-serif;
+  background-color: #8ec5fc;
+  background-image: linear-gradient(270deg, #8ec5fc 2%, #e0c3fc 78%);
+
+  font-family: 'Roboto', sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -17,7 +19,8 @@ body {
 
 .key {
   border: 1px solid #999;
-  background-color: #eee;
+  border-radius: 5px;
+  background-color: #e3dffd;
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
   display: inline-flex;
   align-items: center;
